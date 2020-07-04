@@ -1,0 +1,77 @@
+@charset "utf-8";
+.Divtop {
+	width: 99%;
+	top: 2px;
+	clear: both;
+	font-family: "Times New Roman", Times, serif;
+	color: #FFFFFF;
+	background-color: #3399FF;
+	text-align: center;
+}
+.divleft {
+	float: left;
+	width: 39%;
+}
+
+.Divbottom {
+	width: 99%;
+	bottom: 2px;
+	clear: both;
+	background-color: #0099FF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #FFFFFF;
+	text-align: center;
+}
+.divcentre {
+	width: 99%;
+	clear: both;
+	float: none;
+	border: 1px solid #FFFFCC;
+	text-align: center;
+}
+.divright {
+	float: right;
+	width: 58%;
+}
+.Divbody {
+	height: 100%;
+	width: 100%;
+	border: thin solid #FFFFCC;
+	top: 1px;
+	bottom: 1px;
+}
+.centered {
+	text-align: center;
+}
+.style2 {
+	color: #660033; 
+}
+.style4 {
+	font-size: large;
+	color: #330066;
+}
+.style7 {
+	font-size: large;
+	font-style: italic;
+}
+.style8 {
+	font-size: x-large
+}
+.style9 {
+	font-size: x-large;
+	color: #000033;
+}
+.style10 {
+	font-size: x-large;
+	font-style: italic;
+	color: #333333;
+}
+.style11 {
+	color: #000033
+}
+.style12 {
+	color: #330000
+}
+.style13 {
+	color: #660000
+}

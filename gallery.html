@@ -1,0 +1,317 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>DasArt</title>
+		<link href="MyStyles.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="Divbody">
+			<div class="Divtop">
+				<p>
+					<a href="index.html"><img src="images/Picture1.gif" alt="HOME" width="20%"/></a> 
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="style7">Quality Art works</span>
+ 				</p>
+ 				<div>
+  					<table style="margin: auto;" cellpadding="5">
+    					<td style="background-color: black;">
+							<img src="time/dg8.gif" name="hr1">
+							<img src="time/dg8.gif" name="hr2">
+							<img src="time/dgc.gif">
+							<img src="time/dg8.gif" name="mn1">
+							<img src="time/dg8.gif" name="mn2">
+							<img src="time/dgc.gif">
+							<img src="time/dg8.gif" name="se1">
+							<img src="time/dg8.gif" name="se2">
+							<img src="time/dgpm.gif" name="ampm">
+						</td>
+  					</table>
+  					<script type="text/javascript">
+						// (c) 2000-2009 ricocheting.com
+
+						dg0=new Image();dg0.src="time/dg0.gif";
+						dg1=new Image();dg1.src="time/dg1.gif";
+						dg2=new Image();dg2.src="time/dg2.gif";
+						dg3=new Image();dg3.src="time/dg3.gif";
+						dg4=new Image();dg4.src="time/dg4.gif";
+						dg5=new Image();dg5.src="time/dg5.gif";
+						dg6=new Image();dg6.src="time/dg6.gif";
+						dg7=new Image();dg7.src="time/dg7.gif";
+						dg8=new Image();dg8.src="time/dg8.gif";
+						dg9=new Image();dg9.src="time/dg9.gif";
+						dgam=new Image();dgam.src="time/dgam.gif";
+						dgpm=new Image();dgpm.src="time/dgpm.gif";
+
+						function dotime(){ 
+							theTime=setTimeout('dotime()',1000);
+							d = new Date();
+							hr= d.getHours()+100;
+							mn= d.getMinutes()+100;
+							se= d.getSeconds()+100;
+							if(hr==100) {
+								hr=112;am_pm='am';
+								}
+							else if(hr<112){
+								am_pm='am';
+								}
+							else if(hr==112) {
+								am_pm='pm';
+								}
+							else if(hr>112){
+								am_pm='pm';hr=(hr-12);
+								}
+							tot=''+hr+mn+se;
+							document.hr1.src = 'dg'+tot.substring(1,2)+'.gif';
+							document.hr2.src = 'dg'+tot.substring(2,3)+'.gif';
+							document.mn1.src = 'dg'+tot.substring(4,5)+'.gif';
+							document.mn2.src = 'dg'+tot.substring(5,6)+'.gif';
+							document.se1.src = 'dg'+tot.substring(7,8)+'.gif';
+							document.se2.src = 'dg'+tot.substring(8,9)+'.gif';
+							document.ampm.src= 'dg'+am_pm+'.gif';
+							}
+						dotime();
+					</script>
+				</div> 
+				<p class="style4"> 
+					<a href="index.html">HOME </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="gallery.html">OUR GALLERY</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+				  	<a href="artist.html">ABOUT THE ARTIST </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				  	<a href="contact.html">CONTACT US</a>
+				</p>
+			</div>
+
+			<div class="divcentre">
+				<p class="style8">
+					OIL PAINTING GALLERY
+				</p>
+				<div>
+					<!-- configurable script -->
+					<script type="text/javascript">
+						theimage = new Array();
+
+						// The dimensions of ALL the images should be the same or some of 
+						// them may look stretched or reduced in Netscape 4.
+						// Format: theimage[...]=[image URL, link URL, name/description]
+						theimage[0]=["images/Air_Hostess.JPG", "", "Air Hostess"];
+						theimage[1]=["images/Amazing_Lady.JPG", "", "Amazing Lady"];
+						theimage[2]=["images/Apprehensive.JPG", "", "Apprehensive"];
+						theimage[3]=["images/arabian.JPG", "", "Arabian"];
+						theimage[4]=["images/arabiandance.JPG", "", "Arabian Dance"];
+						theimage[5]=["images/arch_pose.JPG", "", "Arch Pose"];
+						theimage[6]=["images/back_view.JPG", "", "Back View"];
+						theimage[7]=["images/Ballerina.JPG", "", "Ballerina"];
+						theimage[8]=["images/belly_dancer.JPG", "", "Belly Dancer"];
+						theimage[9]=["images/birbie.JPG", "", "Birbie"];
+						theimage[10]=["images/Cinderella.JPG", "", "Cinderella"];
+						theimage[11]=["images/cute_lady.JPG", "", "Cute Lady"];
+						theimage[12]=["images/Egyptian.JPG", "", "Egyptian"];
+						theimage[13]=["images/face.JPG", "", "Facial"];
+						theimage[14]=["images/facial.JPG", "", "Facially"];
+						theimage[15]=["images/fairy_princess.JPG", "", "Fairy Princess"];
+						theimage[16]=["images/Fiery_Lady.JPG", "", "Fiery Lady"];
+						theimage[17]=["images/Flemingo.JPG", "", "Flemingo"];
+						theimage[18]=["images/flower_lady.JPG", "", "Flower Lady"];
+						theimage[19]=["images/fly_air.JPG", "", "Fly Air"];
+						theimage[20]=["images/full_view.JPG", "", "Full View"];
+						theimage[21]=["images/Girl_In_Bikini.JPG", "", "Girl In Bikini"];
+						theimage[22]=["images/Island_Princess.JPG", "", "Island Princess"];
+						theimage[23]=["images/kneeling.JPG", "", "Kneeling"];
+						theimage[24]=["images/Kosac_Girl.JPG", "", "Kosac Girl"];
+						theimage[25]=["images/lady2.JPG", "", "Lady 2"];
+						theimage[26]=["images/lady4.JPG", "", "Lady 4"];
+						theimage[27]=["images/lady5.JPG", "", "Lady 5"];
+						theimage[28]=["images/lady8.JPG", "", "Lady 8"];
+						theimage[29]=["images/Lady_Dancing.JPG", "", "Lady Dancer"];
+						theimage[30]=["images/ladybird.JPG", "", "Ladybird"];
+						theimage[31]=["images/links.JPG", "", "Links"];
+						theimage[32]=["images/Little_Princess.JPG", "", "Little Princess"];
+						theimage[33]=["images/lying.JPG", "", "Lying"];
+						theimage[34]=["images/nude_pose.JPG", "", "Nude Pose"];
+						theimage[35]=["images/number14.JPG", "", "Number 14"];
+						theimage[36]=["images/oriental_dancer.JPG", "", "Oriental Dancer"];
+						theimage[37]=["images/peacock.JPG", "", "Peacock"];
+						theimage[38]=["images/pole_dancer.JPG", "", "Pole Dancer"];
+						theimage[39]=["images/pose_paint.JPG", "", "Pose Paint"];
+						theimage[40]=["images/princess.JPG", "", "Princess"];
+						theimage[41]=["images/princess2.JPG", "", "Princess2"];
+						theimage[42]=["images/pussycat.JPG", "", "Pussycat"];
+						theimage[43]=["images/Rear_View.JPG", "", "Rear View"];
+						theimage[44]=["images/Reclining_Nude.JPG", "", "Reclining Nude"];
+						theimage[45]=["images/Spanish_Beauty.JPG", "", "Spanish Beauty"];
+						theimage[46]=["images/Spanish_Girl.JPG", "", "Spanish Girl"];
+						theimage[47]=["images/streama.JPG", "", "Streama"];
+						theimage[48]=["images/swan_lady.JPG", "", "Swan Lady"];
+						theimage[49]=["images/sword_dancer.JPG", "", "Sword Dancer"];
+						theimage[50]=["images/Technicolour.JPG", "", "Technicolour"];
+						theimage[51]=["images/Tempting_Lady.JPG", "", "Tempting Lady"];
+						theimage[52]=["images/tiger.JPG", "", "Tiger"];
+						theimage[53]=["images/view_dancer.JPG", "", "View Dancer"];
+
+						///// Plugin variables
+
+						playspeed=3000;
+						// The playspeed determines the delay for the "Play" button in ms
+						//#####
+						//key that holds where in the array currently are
+						i=0;
+
+
+						//###########################################
+						window.onload=function(){
+
+							//preload images into browser
+							preloadSlide();
+
+							//set the first slide
+							SetSlide(0);
+
+						}
+
+						//###########################################
+						function SetSlide(num) {
+							//too big
+							i=num%theimage.length;
+							//too small
+							if(i<0)i=theimage.length-1;
+
+							//switch the image
+							document.images.imgslide.src=theimage[i][0];
+
+							//if they want name of current slide
+							document.getElementById('slidebox').innerHTML=theimage[i][2];
+
+						}
+
+						//###########################################
+						function PlaySlide() {
+							if (!window.playing) {
+								PlayingSlide(i+1);
+								if(document.slideshow.play){
+									document.slideshow.play.value="   Stop   ";
+								}
+							}
+							else {
+								playing=clearTimeout(playing);
+								if(document.slideshow.play){
+									document.slideshow.play.value="   Play   ";
+								}
+							}
+							// if you have to change the image for the "playing" slide
+							if(document.images.imgPlay){
+								setTimeout('document.images.imgPlay.src="'+imgStop+'"',1);
+								imgStop=document.images.imgPlay.src
+							}
+						}
+
+						//###########################################
+						function PlayingSlide(num) {
+							playing=setTimeout('PlayingSlide(i+1);SetSlide(i+1);', playspeed);
+						}
+
+						//###########################################
+						function preloadSlide() {
+							for(k=0;k<theimage.length;k++) {
+								theimage[k][0]=new Image().src=theimage[k][0];
+							}
+						}
+					</script>
+
+					<!-- slide show HTML -->
+					<form name="slideshow">
+
+  						<div class="style2 centered">
+    						<table style="margin: auto;" cellpadding="2" cellspacing="0">
+      							<tr>
+        							<td :centre>
+          								<a href="#" onmouseover="this.href=theimage[i][1];return false">
+            							<script type="text/javascript">
+										document.write('<img name="imgslide" id="imgslide" src="'+theimage[0][0]+'" border="0"width="500" height="500">')
+										</script>
+                     				</td>
+    							</tr>
+      							<tr>
+        							<td :centre>
+										<div id="slidebox"></div>
+									</td>
+    							</tr>
+      							<tr>
+        							<td :centre>
+          								<input type="button" value="I<<" onclick="SetSlide(0);" title="Jump to starting image">
+          								<input type="button" value="<<" onclick="SetSlide(i-1);" title="Previous image">
+          								<input type="button" name="play" value="   Play   " onclick="PlaySlide();" title="Autoplay">
+          								<input type="button" value=">>" onclick="SetSlide(i+1);" title="Jump to next image">
+									  	<input type="button" value=">>I" onclick="SetSlide(theimage.length-1);" title="Jump to ending image">          
+									</td>
+    							</tr>
+    						</table>
+						</div>
+					</form>
+					  <!-- end of slide show HTML -->
+					<div class="centered">
+  						<p></p>
+					</div>
+				</div>
+			</div>
+      		<div class="Divbottom">
+        		<p class="style2">
+          			<a href="index.html">HOME</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          			<a href="contact.html">CONTACT US</a>
+        		</p>
+        		<p class="style13">
+          			Website designed by  
+          			<a href="http://www.trecum.co.cc">TrecumTechnology</a>
+        		</p>
+        		<p class="style13">
+          			<script type="text/javascript">
+            			tday  =new Array("Sunday","Monday","Tuesday","Wednesday",
+            			"Thursday","Friday","Saturday");
+            			tmonth=new Array("January","February","March","April","May",
+            			"June","July","August","September","October","November","December");
+
+            			function GetClock(){
+              				d = new Date();
+              				nday = d.getDay();
+              				nmonth = d.getMonth();
+              				ndate  = d.getDate();
+              				nyear = d.getYear();
+              				nhour  = d.getHours();
+              				nmin   = d.getMinutes();
+              				nsec   = d.getSeconds();
+
+              				if(nyear<1000) {
+                				nyear=nyear+1900;
+                				}
+              				if(nhour ==  0) {
+                				ap = " AM";nhour = 12;
+                				} 
+              				else if(nhour <= 11) {
+                				ap = " AM";
+                				} 
+              				else if(nhour == 12) {
+                				ap = " PM";
+                				} 
+              				else if(nhour >= 13) {
+                				ap = " PM";nhour -= 12;
+                				}
+
+              				if(nmin <= 9) {
+                				nmin = "0" +nmin;
+                				}
+              				if(nsec <= 9) {
+                				nsec = "0" +nsec;
+                				}
+
+              				document.getElementById('clockbox').innerHTML=""+tday[nday]+", "
+              				+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+":"+nsec+ap+"";
+              				setTimeout("GetClock()", 1000);
+            			}
+            			window.onload=GetClock;
+          			</script>
+        		</p>
+        		<div id="clockbox"></div>
+      		</div>
+    	</div>
+  	</body>
+</html>
